@@ -1,0 +1,23 @@
+can drop latitude and longitude from artists
+
+can drop featured artists as 3/4 rows miss them
+
+idk what stats-pageviews is
+
+features relative to sentences tokens and characters must be reviewed
+
+features relative purely to the music have low missing values and can have correlation with popularity shifts over the years/months, or artistic shift of the authors, those need a deep analysis during task 2 and 3
+
+can maybe identify some sort of style based on some features such as bpm, loudness etc
+
+features relative to albums might be useful to infer how much a song popularity is carried by other songs in the album (like if 2 songs are similar but one is in an extremely popular album it might get carried by it and increase in popularity)
+
+also a general album popularity feature might be inferred by singular popularity of its songs and can be used for the previous measure
+
+in general we can also track popularity shifts in a broader view, by looking at the total popualrity over the years we can see when rap rise and fall in popularity and maybe find patterns, and we can use previously identified styles and see the correlation and patterns
+
+album image seems useless
+
+might need something complex such as transformers to analyze lyrics
+
+OVERALL i think we can track authors stylistic and popularity shifts, determine if age and geography has some correlation with them, or if it is the other way around, we can also do sort of the same thing from different povs and at various depths.
