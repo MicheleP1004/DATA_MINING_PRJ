@@ -1,0 +1,3 @@
+
+[] Decide how to deal with nan values with artists, i think either manually add them since they are few or use automatic methods but they add noise.
+[] Decide how to deal with nan values with tracks, manual approach is impossible here.
