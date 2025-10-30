@@ -2,8 +2,6 @@ can drop latitude and longitude from artists
 
 can drop featured artists as 3/4 rows miss them
 
-idk what stats-pageviews is
-
 features relative to sentences tokens and characters must be reviewed
 
 features relative purely to the music have low missing values and can have correlation with popularity shifts over the years/months, or artistic shift of the authors, those need a deep analysis during task 2 and 3

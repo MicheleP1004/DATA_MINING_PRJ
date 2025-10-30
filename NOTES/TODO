@@ -1,9 +1,9 @@
 
 [] Decide how to deal with nan values with artists, i think either manually add them since they are few or use automatic methods but they add noise.
 [] Decide how to deal with nan values with tracks, manual approach is impossible here.
-[] Decide if we want to unite tables or keep them separate or both.
-[] Drop column active_end
-[] Drop longitude and latitude
+[x] Decide if we want to unite tables or keep them separate or both.
+[x] Drop column active_end
+[x] Drop longitude and latitude
 [] Extract nan feat from full title
 [] Extract nan text stats from lyrics
 [] Extract nan active_start from first song or first feat
