@@ -1,0 +1,4 @@
+
+1 In caso non si possa inferire il valore mancante di alcune feature tramite i dati presenti nel dataset, possiamo utilizzare fonti esterne (per esempio in tracce in cui manca la lingua la inferiamo tramite una libreria apposita) o ,per poche istanze, farlo a mano (come i luoghi e date di nascita degli artistsi che sono facilmente recuperabili)?
+2 Dato che il dataset riguarda canzoni rap italiane, le canzoni di artisti non italiani, poichè quindi non pertinenti con l'analisi, possono essere rimosse?(così come gli artisti non italiani stessi)
+

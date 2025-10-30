@@ -1,4 +1,7 @@
 /venv
+/data/dataset/
+/data/delivered_dataset.zip
 /data/__MACOSX/
-/data/temp/
+/backup_local/
+/data/temp
 .gitignore
