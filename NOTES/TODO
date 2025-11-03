@@ -5,8 +5,10 @@ TODO:
 [] Understand the language problem 
 [] Madman fake had to be dropped
 [] Fix value of year (già messi a nan, manca inferirli)
+[] Impute missing birth_place, province ecc
 
 WORK IN PROGRESS:
+[] Artists active_start need to be recomputed for final_artists_prop after tracks years are done
 
 DONE:
 [X] Decide if we want to unite tables or keep them separate or both.
@@ -17,4 +19,8 @@ DONE:
 [X] Extract nan feat from full title
 [X] Check avg_token_per_clause
 [X] Extract nan active_start from first song or first feat
-[X] Change teh featured_artist columns in to an array of string
+[X] Change the featured_artist columns in to an array of string
+[x] Drop description
+[x] Add group boolean column
+[x] Fix date_birth of groups based on active active_start
+[x] Get active start of artists based on oldest track
