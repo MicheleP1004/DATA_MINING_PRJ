@@ -2,10 +2,13 @@ TODO:
 [] Decide how to deal with nan values with artists, i think either manually add them since they are few or use automatic methods but they add noise.
 [] Decide how to deal with nan values with tracks, manual approach is impossible here.
 [] Delete the artist without italian song
-[] Understand the language problem 
+[] Understand the language problem
 [] Madman fake had to be dropped
 [] Fix value of year (già messi a nan, manca inferirli)
 [] Impute missing birth_place, province ecc
+[] do the correlation from the features popularity and pageviews
+[] do correlations between popularity, pageviews, place, year
+[] get missing stats_pageviews from popularity and other features
 
 WORK IN PROGRESS:
 [] Artists active_start need to be recomputed for final_artists_prop after tracks years are done
@@ -15,12 +18,13 @@ DONE:
 [X] Drop column active_end
 [X] Drop longitude and latitude
 [X] Drop no lyrics songs (3)
-[X] Extract nan text stats from lyrics 
+[X] Extract nan text stats from lyrics
 [X] Extract nan feat from full title
 [X] Check avg_token_per_clause
 [X] Extract nan active_start from first song or first feat
 [X] Change the featured_artist columns in to an array of string
-[x] Drop description
-[x] Add group boolean column
-[x] Fix date_birth of groups based on active active_start
-[x] Get active start of artists based on oldest track
+[X] Drop description
+[X] Add group boolean column
+[X] Fix date_birth of groups based on active active_start
+[X] Get active start of artists based on oldest track
+[X] Fix the duplicated id in the tracks dataset
